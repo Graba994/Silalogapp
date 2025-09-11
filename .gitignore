@@ -1,0 +1,8 @@
+# Ignoruj pliki tymczasowe i logi
+*.log
+
+# Ignoruj pliki generowane przez edytor
+.vscode/
+
+# Jeśli kiedykolwiek użyjesz NPM, ten folder powinien być ignorowany
+/node_modules

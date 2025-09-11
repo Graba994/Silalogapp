@@ -1,0 +1,18 @@
+[
+    {
+        "id": "weight",
+        "name": "Ciężar (kg)"
+    },
+    {
+        "id": "reps",
+        "name": "Powtórzenia"
+    },
+    {
+        "id": "time",
+        "name": "Czas (s)"
+    },
+    {
+        "id": "distance",
+        "name": "Dystans (km)"
+    }
+]

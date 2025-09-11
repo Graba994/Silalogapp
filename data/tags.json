@@ -1,0 +1,155 @@
+[
+    {
+        "group_id": "klatka",
+        "group_name": "Klatka piersiowa",
+        "color": "danger",
+        "tags": [
+            {
+                "id": "klatka_piersiowa",
+                "name": "Mięsień piersiowy"
+            }
+        ]
+    },
+    {
+        "group_id": "plecy",
+        "group_name": "Plecy",
+        "color": "primary",
+        "tags": [
+            {
+                "id": "najszerszy_grzbietu",
+                "name": "Mięsień najszerszy grzbietu"
+            },
+            {
+                "id": "czworoboczny_i_rownolegloboczne",
+                "name": "Mięsień czworoboczny i równoległoboczne"
+            },
+            {
+                "id": "prostownik_grzbietu",
+                "name": "Prostownik grzbietu"
+            }
+        ]
+    },
+    {
+        "group_id": "barki",
+        "group_name": "Barki",
+        "color": "info",
+        "tags": [
+            {
+                "id": "naramienny_ogolnie",
+                "name": "Mięsień naramienny (ogólnie)"
+            },
+            {
+                "id": "naramienny_przedni",
+                "name": "Przedni akton barków"
+            },
+            {
+                "id": "naramienny_boczny",
+                "name": "Boczny akton barków"
+            },
+            {
+                "id": "naramienny_tylny",
+                "name": "Tylny akton barków"
+            }
+        ]
+    },
+    {
+        "group_id": "ramiona",
+        "group_name": "Ramiona",
+        "color": "warning",
+        "tags": [
+            {
+                "id": "biceps",
+                "name": "Mięsień dwugłowy ramienia (Biceps)"
+            },
+            {
+                "id": "triceps",
+                "name": "Mięsień trójgłowy ramienia (Triceps)"
+            },
+            {
+                "id": "przedramie",
+                "name": "Mięśnie przedramion"
+            }
+        ]
+    },
+    {
+        "group_id": "nogi",
+        "group_name": "Nogi",
+        "color": "success",
+        "tags": [
+            {
+                "id": "czworoglowy_uda",
+                "name": "Mięsień czworogłowy uda"
+            },
+            {
+                "id": "dwuglowy_uda",
+                "name": "Mięsień dwugłowy uda"
+            },
+            {
+                "id": "posladkowy",
+                "name": "Mięśnie pośladkowe"
+            },
+            {
+                "id": "przywodziciele",
+                "name": "Przywodziciele"
+            },
+            {
+                "id": "odwodziciele",
+                "name": "Odwodziciele"
+            },
+            {
+                "id": "lydki",
+                "name": "Mięśnie łydki"
+            }
+        ]
+    },
+    {
+        "group_id": "core",
+        "group_name": "Core / Brzuch",
+        "color": "dark",
+        "tags": [
+            {
+                "id": "core",
+                "name": "Mięśnie głębokie (Core)"
+            },
+            {
+                "id": "prosty_brzucha",
+                "name": "Mięsień prosty brzucha"
+            },
+            {
+                "id": "skosne_brzucha",
+                "name": "Mięśnie skośne brzucha"
+            }
+        ]
+    },
+    {
+        "group_id": "ogolne",
+        "group_name": "Ogólnorozwojowe",
+        "color": "secondary",
+        "tags": [
+            {
+                "id": "full_body",
+                "name": "Całe ciało"
+            },
+            {
+                "id": "stabilizacja",
+                "name": "Stabilizacja"
+            },
+            {
+                "id": "chwyt",
+                "name": "Siła chwytu"
+            },
+            {
+                "id": "plyometria",
+                "name": "Plyometria"
+            },
+            {
+                "id": "mobilnosc",
+                "name": "Mobilność"
+            },
+            {
+                "id": "cardio",
+                "name": "Cardio"
+            }
+        ]
+    }
+]

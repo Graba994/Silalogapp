@@ -1,0 +1,18 @@
+[
+    {
+        "id": "graba",
+        "name": "Graba",
+        "icon": "bi-person-video3",
+        "password_hash": "$2y$10$nRgQ.vmq7XKkbVh0vZZOBOhn4j\/ce8bIz.FY4KHsRlwQfQVnTEOX6",
+        "role": "admin",
+        "body_params": {
+            "birth_date": "1994-10-12",
+            "weight": 95
+        },
+        "key_exercises": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }]

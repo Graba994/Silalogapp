@@ -1,0 +1,324 @@
+/* --- SiłaLog Custom Bootstrap Theme --- */
+
+/* 1. Import czcionki */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* 2. Globalne style */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Globalny padding na dole, aby zrobić miejsce na lepki pasek akcji */
+    padding-bottom: 100px; 
+}
+main.container {
+    flex-grow: 1; /* Pozwala main rosnąć i pchać stopkę w dół */
+}
+.navbar-brand {
+    letter-spacing: -1px;
+}
+
+/* 3. Style dla komponentów "Card" */
+.card {
+    border: 1px solid var(--bs-border-color-translucent);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.card-header.bg-dark {
+    border-bottom: none;
+}
+
+/* 4. Strona logowania */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* 5. Strona dodawania treningu (log_workout.php) */
+#exercises-container {
+    /* Ten padding jest teraz opcjonalny, ale możemy go zostawić dla większego marginesu na tej konkretnej stronie */
+    padding-bottom: 20px;
+}
+.exercise-block {
+    background-color: var(--bs-tertiary-bg); 
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.remove-exercise {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+.workout-actions-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(var(--bs-body-bg-rgb), 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); /* Wsparcie dla Safari */
+    padding: 1rem;
+    border-top: 1px solid var(--bs-border-color);
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
+    z-index: 1020;
+}
+
+/* 6. Tryb edycji planów */
+.plan-actions {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+}
+#plans-container.edit-mode-active .plan-actions {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+#plans-container.edit-mode-active .plan-card {
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.15);
+    border: 1px solid var(--bs-primary-border-subtle);
+}
+
+/* =================================================================== */
+/* === 8. POPRAWKI I ULEPSZENIA DLA TRYBU CIEMNEGO (DARK MODE) === */
+/* =================================================================== */
+
+[data-bs-theme="dark"] {
+    .card {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    .card:hover {
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    .workout-actions-bar {
+        box-shadow: 0 -4px 15px rgba(0,0,0,0.2);
+    }
+    .accordion-button {
+        color: var(--bs-body-color);
+    }
+    .input-group-text {
+        background-color: var(--bs-secondary-bg);
+        border-color: var(--bs-border-color);
+    }
+    .list-group-item.bg-success-subtle {
+        background-color: rgba(var(--bs-success-rgb), 0.25) !important;
+    }
+    #plans-container.edit-mode-active .plan-card {
+        box-shadow: 0 8px 25px rgba(var(--bs-primary-rgb), 0.25);
+    }
+}
+
+/* Lepszy wygląd przycisku stopera w stanie "bonusowym" */
+.start-timer-btn.btn-success {
+    color: var(--bs-white) !important;
+    background-color: var(--bs-success) !important;
+    border-color: var(--bs-success) !important;
+}
+
+[data-bs-theme="dark"] .start-timer-btn.btn-success {
+    color: var(--bs-white) !important;
+    background-color: var(--bs-success-bg-subtle) !important;
+    border-color: var(--bs-success-bg-subtle) !important;
+    color: var(--bs-emphasis-color) !important;
+}
+
+/* =================================================================== */
+/* === 9. NOWOCZESNY WYGLĄD DLA LOG_WORKOUT.PHP (STRONA TRENINGU) === */
+/* =================================================================== */
+
+.exercise-block-v2 {
+    background-color: var(--bs-body-bg);
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease;
+}
+
+.exercise-block-v2.new-exercise-prompt {
+    overflow: visible;
+}
+
+[data-bs-theme="dark"] .exercise-block-v2 {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-block-v2 .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid var(--bs-border-color-translucent);
+    padding: 1.25rem;
+    font-weight: 500;
+}
+
+.exercise-block-v2 .set-row {
+    transition: background-color 0.3s ease; /* Usunięto dwukropek po 'background-color' */
+    padding: 1rem 1.25rem;
+}
+
+.exercise-block-v2 .list-group-item {
+    border-bottom: 1px solid var(--bs-border-color-translucent) !important;
+}
+.exercise-block-v2 .list-group-item:last-child {
+    border-bottom: none !important;
+}
+
+.exercise-block-v2 .check-btn,
+.exercise-block-v2 .edit-set-btn,
+.exercise-block-v2 .start-timer-btn {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+}
+
+.exercise-block-v2 .check-btn:hover,
+.exercise-block-v2 .edit-set-btn:hover,
+.exercise-block-v2 .start-timer-btn:hover {
+    transform: scale(1.1);
+}
+
+.exercise-block-v2 .set-edit-form {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease, margin-top 0.4s ease;
+    margin-top: 0;
+}
+
+.exercise-block-v2 .set-row.is-editing .set-display {
+    opacity: 0.5;
+}
+
+.exercise-block-v2 .set-row.is-editing .set-edit-form {
+    max-height: 100px;
+    opacity: 1;
+    margin-top: 0.75rem;
+}
+
+.bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+.ts-control {
+    padding: 0.6rem 0.75rem !important;
+    font-size: 1.25rem;
+}
+
+[data-bs-theme="dark"] .ts-control > input::placeholder,
+[data-bs-theme="dark"] .ts-control > input {
+    color: var(--bs-body-color) !important;
+}
+
+[data-bs-theme="dark"] .ts-dropdown {
+    background: var(--bs-tertiary-bg);
+    border-color: var(--bs-border-color);
+    color: var(--bs-body-color);
+}
+[data-bs-theme="dark"] .ts-dropdown .option {
+    color: var(--bs-body-color);
+}
+[data-bs-theme="dark"] .ts-dropdown .active {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
+[data-bs-theme="dark"] .ts-dropdown .no-results {
+    color: var(--bs-secondary-color);
+}
+
+/* Poprawki dla edytora Quill w trybie ciemnym */
+[data-bs-theme="dark"] .ql-toolbar,
+[data-bs-theme="dark"] .ql-container {
+    border-color: var(--bs-border-color) !important;
+}
+[data-bs-theme="dark"] .ql-editor {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+[data-bs-theme="dark"] .ql-snow .ql-stroke {
+    stroke: var(--bs-gray-400);
+}
+[data-bs-theme="dark"] .ql-snow .ql-picker-label {
+    color: var(--bs-body-color);
+}
+
+/* Animacja dla wskaźnika LIVE w menu */
+.pulsating-dot {
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(220, 53, 69, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(220, 53, 69, 0); }
+}
+
+/* Style dla "Żyjących" kart rankingowych (Dashboard) */
+.ranking-podium-item {
+    transition: background-color 0.2s ease-in-out;
+}
+.ranking-podium-item.is-you {
+    background-color: var(--bs-primary-bg-subtle);
+    border-left: 4px solid var(--bs-primary);
+}
+.podium-place {
+    font-size: 1.2rem;
+    width: 30px;
+    text-align: center;
+}
+.podium-place-1 { color: #D4AF37; }
+.podium-place-2 { color: #C0C0C0; }
+.podium-place-3 { color: #CD7F32; }
+
+/* Problem z Z-INDEX dla menu rozwijanych */
+.navbar.sticky-top {
+    z-index: 1030;
+}
+
+/* =================================================================== */
+/* === Poprawki dla Cal-Heatmap (Dashboard)                        === */
+/* =================================================================== */
+#cal-heatmap {
+    display: flex;
+    justify-content: center; /* Wyśrodkuj mapę w poziomie */
+    overflow-x: auto;      /* Dodaj przewijanie w poziomie na mniejszych ekranach */
+    padding: 1rem 0;       /* Dodaj trochę oddechu w pionie */
+}
+
+/* Podświetlenie dnia po najechaniu myszką */
+.graph-subdomain-group rect:hover {
+    stroke: #000 !important;
+    stroke-width: 1px;
+}
+
+/* Poprawka koloru etykiet miesięcy w trybie ciemnym */
+[data-bs-theme="dark"] #cal-heatmap .graph-label {
+    fill: var(--bs-secondary-color) !important;
+}
+
+/* Poprawka dymka (tooltip) */
+.ch-tooltip {
+    background: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+    border: 1px solid var(--bs-border-color) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem !important;
+}
+[data-bs-theme="dark"] .ch-tooltip {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}

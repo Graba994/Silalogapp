@@ -1,0 +1,12 @@
+{
+    "graba": {
+        "friends": [],
+        "pending_sent": [],
+        "pending_received": []
+    },
+    "test": {
+        "friends": [],
+        "pending_sent": [],
+        "pending_received": []
+    }
+}

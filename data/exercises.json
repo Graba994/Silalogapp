@@ -1,0 +1,1096 @@
+[
+    {
+        "id": 51,
+        "name": "Arnoldki (Arnold Press)",
+        "description": "<p>Złożone ćwiczenie na barki, łączące w sobie rotację i wyciskanie. Angażuje wszystkie trzy aktony mięśni naramiennych.</p>",
+        "howto": "<ol><li>Usiądź na ławce z oparciem, chwyć hantle. Unieś je na wysokość barków, dłonie skierowane do siebie.</li><li>Wyciskając hantle w górę, jednocześnie obracaj ramiona na zewnątrz.</li><li>W szczytowej fazie ramiona są wyprostowane, a dłonie skierowane do przodu.</li><li>Powoli opuszczaj hantle, odwracając ruch rotacji do pozycji wyjściowej.</li></ol><p><br></p><iframe class=\"ql-video\" frameborder=\"0\" allowfullscreen=\"true\" src=\"https://www.youtube.com/embed/R-RTgOxrj88?showinfo=0\"></iframe><p><br></p>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_ogolnie",
+            "naramienny_przedni",
+            "naramienny_boczny",
+            "triceps"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Australian Pull-ups (wiosłowanie australijskie)",
+        "description": "<p>Poziome podciąganie pod drążkiem. Doskonałe ćwiczenie przygotowujące do pełnego podciągania, budujące siłę pleców i ramion.</p>",
+        "howto": "<ol><li>Ustaw drążek na wysokości bioder. Połóż się pod drążkiem, chwyć go nachwytem.</li><li>Utrzymując ciało w jednej linii, podciągnij klatkę piersiową do drążka.</li><li>Skup się na ściąganiu łopatek.</li><li>Powoli i kontrolowanie opuść ciało do pełnego wyprostu ramion.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "czworoboczny_i_rownolegloboczne"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Box Jumps (wskoki na skrzynię)",
+        "description": "<p>Ćwiczenie plyometryczne rozwijające moc i eksplozywność dolnych partii ciała. Świetne dla sportowców.</p>",
+        "howto": "<ol><li>Stań przed stabilną skrzynią.</li><li>Wykonaj lekki przysiad, zamachując ramionami.</li><li>Dynamicznie wybij się z obu nóg, wskakując na skrzynię.</li><li>Wyląduj miękko na całej powierzchni stóp. Zejdź ze skrzyni (nie zeskakuj) i powtórz.</li></ol>",
+        "category": "Cardio",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "lydki",
+            "plyometria"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Burpees",
+        "description": "<p>Kompleksowe ćwiczenie angażujące całe ciało, łączące pompkę, przysiad i wyskok. Niezwykle wymagające kondycyjnie.</p>",
+        "howto": "<ol><li>Przejdź do przysiadu i połóż dłonie na podłodze.</li><li>Wyrzuć nogi do tyłu do pozycji deski.</li><li>Wykonaj pompkę.</li><li>Przyciągnij nogi z powrotem do przysiadu.</li><li>Z tej pozycji dynamicznie wyskocz w górę.</li></ol>",
+        "category": "Cardio",
+        "track_by": [
+            "reps",
+            "time"
+        ],
+        "tags": [
+            "full_body",
+            "cardio",
+            "plyometria"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Bułgarskie przysiady (Bulgarian Split Squats)",
+        "description": "<p>Jednostronna wariacja przysiadu z tylną nogą na podwyższeniu. Intensywnie angażuje mięśnie czworogłowe i pośladkowe.</p>",
+        "howto": "<ol><li>Oprzyj grzbiet jednej stopy na ławce. Noga wykroczna z przodu.</li><li>Opuść biodra w dół, aż udo nogi z przodu będzie równoległe do podłogi.</li><li>Utrzymuj prosty tułów.</li><li>Wróć do pozycji wyjściowej, odpychając się od pięty.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Dipy (pompki na poręczach)",
+        "description": "<p>Doskonałe ćwiczenie na rozwój klatki piersiowej (wersja z pochyleniem) lub tricepsów (wersja pionowa).</p>",
+        "howto": "<ol><li>Chwyć poręcze, ramiona wyprostowane.</li><li>Powoli opuszczaj ciało. Pochyl się do przodu, aby zaangażować klatkę; trzymaj tułów pionowo dla tricepsów.</li><li>Opuść się do komfortowego rozciągnięcia.</li><li>Dynamicznie wypchnij się w górę.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "triceps",
+            "naramienny_przedni"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Face Pulls (przyciąganie linki wyciągu do twarzy)",
+        "description": "<p>Kluczowe ćwiczenie dla zdrowia barków i poprawy postawy. Wzmacnia tylne aktony barków oraz mięśnie rotujące staw ramienny.</p>",
+        "howto": "<ol><li>Ustaw wyciąg z liną na wysokości klatki piersiowej.</li><li>Złap końce liny i cofnij się.</li><li>Przyciągnij linę w kierunku twarzy, rozsuwając końce liny na zewnątrz i rotując ramiona.</li><li>W końcowej fazie ściągnij łopatki. Powoli wróć.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_tylny",
+            "czworoboczny_i_rownolegloboczne"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Good Mornings (dzień dobry)",
+        "description": "<p>Ćwiczenie wzmacniające cały tylny łańcuch mięśniowy: prostowniki grzbietu, pośladki i tył uda. Wymaga doskonałej techniki.</p>",
+        "howto": "<ol><li>Umieść sztangę na barkach. Stopy na szerokość bioder.</li><li>Utrzymując proste plecy, wykonaj skłon tułowia w przód, wypychając biodra do tyłu.</li><li>Pochylaj się do uczucia rozciągania w mięśniach dwugłowych.</li><li>Użyj siły pośladków i mięśni dwugłowych, aby wrócić do pionu.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "dwuglowy_uda",
+            "posladkowy",
+            "prostownik_grzbietu",
+            "core"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Handstand Push-ups (pompki w staniu na rękach)",
+        "description": "<p>Zaawansowane ćwiczenie kalisteniczne, budujące ogromną siłę barków i tricepsów.</p>",
+        "howto": "<ol><li>Przyjmij pozycję stania na rękach przy ścianie.</li><li>Napnij całe ciało.</li><li>Powoli opuszczaj ciało, aż głowa dotknie podłogi.</li><li>Dynamicznie wypchnij się z powrotem do góry.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "naramienny_ogolnie",
+            "triceps",
+            "stabilizacja",
+            "core"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Hip Thrust (wypychanie bioder ze sztangą)",
+        "description": "<p>Najlepsze ćwiczenie izolujące i budujące siłę oraz masę mięśni pośladkowych. Niezbędne w treningu dolnych partii ciała.</p>",
+        "howto": "<ol><li>Oprzyj plecy o krawędź ławki. Umieść sztangę na biodrach.</li><li>Wypchnij biodra w górę, napinając mocno pośladki, aż tułów i uda utworzą jedną linię.</li><li>W szczycie przytrzymaj napięcie.</li><li>Powoli opuść biodra.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "posladkowy",
+            "dwuglowy_uda"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Kettlebell Swings",
+        "description": "<p>Dynamiczne ćwiczenie z odważnikiem kettlebell, rozwijające siłę eksplozywną bioder, pośladków i pleców, a także wytrzymałość.</p>",
+        "howto": "<ol><li>Stań w rozkroku, trzymając kettlebell oburącz.</li><li>Wykonaj ruch zawiasowy w biodrach (nie przysiad), pozwalając, aby kettlebell przesunął się między nogami.</li><li>Dynamicznie wyprostuj biodra, używając siły pośladków, aby 'wystrzelić' odważnik do przodu.</li><li>Pozwól, aby kettlebell opadł w kontrolowany sposób.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "posladkowy",
+            "dwuglowy_uda",
+            "prostownik_grzbietu",
+            "core",
+            "plyometria"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Kółka gimnastyczne - pompki",
+        "description": "<p>Pompki wykonywane na kółkach gimnastycznych, które drastycznie zwiększają wymóg stabilizacji i angażują więcej włókien mięśniowych.</p>",
+        "howto": "<ol><li>Chwyć nisko zawieszone kółka gimnastyczne.</li><li>Przyjmij pozycję do pompki, utrzymując napięte ciało.</li><li>Opuść klatkę piersiową w kierunku kółek, kontrolując ich niestabilność.</li><li>Wypchnij się z powrotem do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "triceps",
+            "naramienny_przedni",
+            "core",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "L-Sit",
+        "description": "<p>Ćwiczenie gimnastyczne polegające na utrzymaniu pozycji 'L' w zwisie lub na poręczach. Wymaga ogromnej siły ramion, brzucha i zginaczy bioder.</p>",
+        "howto": "<ol><li>Usiądź na podłodze z nogami wyprostowanymi. Połóż dłonie na podłodze obok bioder.</li><li>Wciskając dłonie w podłogę, unieś biodra i nogi, utrzymując je prosto i równolegle do podłogi.</li><li>Trzymaj pozycję, utrzymując napięcie w brzuchu i ramionach.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "time"
+        ],
+        "tags": [
+            "prosty_brzucha",
+            "core",
+            "triceps",
+            "czworoglowy_uda"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Martwy ciąg klasyczny",
+        "description": "<p>Kompleksowe ćwiczenie angażujące niemal całe ciało, ze szczególnym naciskiem na plecy, pośladki i tył uda.</p>",
+        "howto": "<ol><li>Stań tak, by sztanga znajdowała się nad środkiem stóp. Złap sztangę nachwytem.</li><li>Ugnij kolana, aż piszczele dotkną sztangi. Wypchnij klatkę do przodu, utrzymując proste plecy.</li><li>Rozpocznij podnoszenie, prostując jednocześnie nogi i biodra.</li><li>Zakończ ruch w pozycji wyprostowanej. Odkładaj sztangę, odwracając ruch.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "full_body",
+            "prostownik_grzbietu",
+            "posladkowy",
+            "dwuglowy_uda",
+            "czworoboczny_i_rownolegloboczne",
+            "chwyt"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Martwy ciąg rumuński (RDL)",
+        "description": "<p>Wariacja martwego ciągu skupiająca się na rozciągnięciu i wzmocnieniu mięśni dwugłowych uda oraz pośladków.</p>",
+        "howto": "<ol><li>Stań prosto ze sztangą w dłoniach.</li><li>Utrzymując proste plecy i minimalnie ugięte kolana, opuść sztangę, wykonując ruch zawiasowy w biodrach.</li><li>Prowadź sztangę blisko nóg. Opuść do momentu mocnego rozciągnięcia mięśni dwugłowych.</li><li>Wróć do pozycji wyjściowej, napinając pośladki.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "dwuglowy_uda",
+            "posladkowy",
+            "prostownik_grzbietu"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Martwy ciąg sumo",
+        "description": "<p>Wariacja martwego ciągu z szerokim rozstawem nóg, która bardziej angażuje mięśnie czworogłowe i przywodziciele.</p>",
+        "howto": "<ol><li>Stań w szerokim rozkroku, palce stóp skierowane na zewnątrz.</li><li>Złap sztangę chwytem mieszanym lub nachwytem wewnątrz nóg.</li><li>Opuść biodra, wypchnij klatkę piersiową.</li><li>Podnieś ciężar, prostując nogi i biodra. Trzymaj plecy prosto.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "full_body",
+            "posladkowy",
+            "czworoglowy_uda",
+            "przywodziciele",
+            "prostownik_grzbietu",
+            "chwyt"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Modlitewnik - uginanie ramion",
+        "description": "<p>Ćwiczenie na biceps wykonywane na specjalnej ławce (modlitewniku), która izoluje mięśnie dwugłowe ramienia, eliminując 'oszukiwanie'.</p>",
+        "howto": "<ol><li>Usiądź na modlitewniku, opierając tricepsy o poduszkę.</li><li>Chwyć sztangę łamaną lub hantle podchwytem.</li><li>Ugnij ramiona, unosząc ciężar w kierunku barków.</li><li>Powoli opuść ciężar do pełnego, kontrolowanego wyprostu.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "biceps"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Muscle Up",
+        "description": "<p>Zaawansowane ćwiczenie gimnastyczne łączące podciąganie z dipem, polegające na przejściu ze zwisu do podporu na drążku lub kółkach.</p>",
+        "howto": "<ol><li>Zacznij w zwisie na drążku.</li><li>Wykonaj eksplozywne podciągnięcie, celując klatką piersiową powyżej drążka.</li><li>W szczytowej fazie podciągania, szybko przełóż nadgarstki i barki nad drążek.</li><li>Zakończ ruch, wykonując dip do pełnego wyprostu ramion.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "najszerszy_grzbietu",
+            "naramienny_ogolnie",
+            "biceps",
+            "triceps",
+            "full_body",
+            "plyometria"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Odwodzenie nogi na maszynie",
+        "description": "<p>Ćwiczenie na maszynie, które izoluje i wzmacnia mięśnie odwodziciele, w tym pośladkowy średni i mniejszy.</p>",
+        "howto": "<ol><li>Usiądź na maszynie, opierając zewnętrzną stronę ud o poduszki.</li><li>Używając siły mięśni odwodzicieli, rozsuń nogi na zewnątrz.</li><li>Przytrzymaj napięcie w końcowej fazie.</li><li>Powoli i kontrolowanie wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "odwodziciele",
+            "posladkowy"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Odwrotne rozpiętki (Reverse Pec-Deck)",
+        "description": "<p>Ćwiczenie na maszynie izolujące tylne aktony barków i mięśnie międzyłopatkowe, kluczowe dla zdrowej postawy.</p>",
+        "howto": "<ol><li>Usiądź na maszynie przodem do oparcia. Chwyć uchwyty.</li><li>Utrzymując proste ramiona (lekko ugięte w łokciach), odwiedź je do tyłu.</li><li>Skup się na ściąganiu łopatek.</li><li>Powoli wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_tylny",
+            "czworoboczny_i_rownolegloboczne"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Pistol Squats (przysiady na jednej nodze)",
+        "description": "<p>Zaawansowane ćwiczenie kalisteniczne wymagające ogromnej siły, stabilizacji i mobilności. Buduje siłę i masę mięśni nóg.</p>",
+        "howto": "<ol><li>Stań na jednej nodze, drugą trzymając wyprostowaną przed sobą.</li><li>Powoli wykonaj przysiad na nodze stojącej, utrzymując równowagę.</li><li>Zejdź tak nisko, jak pozwala na to mobilność, idealnie do pełnego przysiadu.</li><li>Wróć do pozycji wyjściowej, nie dotykając drugą nogą podłogi.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Plank (deska)",
+        "description": "<p>Ćwiczenie izometryczne wzmacniające cały gorset mięśniowy (core), poprawiające stabilizację sylwetki.</p>",
+        "howto": "<ol><li>Przyjmij pozycję podpartą na przedramionach i palcach stóp.</li><li>Utrzymuj ciało w jednej, prostej linii od głowy do pięt.</li><li>Napnij mięśnie brzucha i pośladków.</li><li>Utrzymaj pozycję przez określony czas.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "time"
+        ],
+        "tags": [
+            "core",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Plank boczny (Side Plank)",
+        "description": "<p>Wariacja deski, która intensywnie angażuje mięśnie skośne brzucha oraz stabilizatory bioder.</p>",
+        "howto": "<ol><li>Połóż się na boku, opierając się na jednym przedramieniu. Łokieć powinien być pod barkiem.</li><li>Unieś biodra, tworząc prostą linię od głowy do stóp.</li><li>Utrzymaj pozycję, a następnie zmień stronę.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "time"
+        ],
+        "tags": [
+            "skosne_brzucha",
+            "core",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Podciąganie na drążku (nachwytem)",
+        "description": "<p>Kluczowe ćwiczenie kalisteniczne na rozwój szerokości pleców (mięśni najszerszych) oraz siły bicepsów.</p>",
+        "howto": "<ol><li>Złap drążek nachwytem, nieco szerzej niż szerokość barków.</li><li>Zacznij w pełnym zwisie.</li><li>Podciągnij się, aż broda znajdzie się nad drążkiem. Skup się na pracy pleców.</li><li>Powoli opuść się do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "biceps",
+            "chwyt"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Podciąganie na drążku (podchwytem)",
+        "description": "<p>Wariacja podciągania, która mocniej angażuje mięśnie dwugłowe ramienia (bicepsy).</p>",
+        "howto": "<ol><li>Złap drążek podchwytem na szerokość barków.</li><li>Zacznij w pełnym zwisie.</li><li>Podciągnij się, aż broda znajdzie się nad drążkiem, mocno angażując bicepsy.</li><li>Powoli opuść się do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "biceps",
+            "chwyt"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Pompki",
+        "description": "<p>Podstawowe ćwiczenie na klatkę piersiową i tricepsy, wykonywane z masą własnego ciała.</p>",
+        "howto": "<ol><li>Przyjmij pozycję deski z dłońmi na podłodze na szerokość barków.</li><li>Opuść klatkę piersiową w kierunku podłogi, zginając łokcie.</li><li>Utrzymuj proste ciało.</li><li>Wypchnij się z powrotem do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "triceps",
+            "naramienny_przedni"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Pompki diamentowe",
+        "description": "<p>Wariacja pompki z wąsko ułożonymi dłońmi, która intensywnie angażuje mięśnie trójgłowe ramienia (tricepsy).</p>",
+        "howto": "<ol><li>Przyjmij pozycję do pompki. Złącz dłonie pod klatką piersiową, tworząc kształt diamentu z palców wskazujących i kciuków.</li><li>Opuść klatkę piersiową w kierunku dłoni.</li><li>Wypchnij się w górę, skupiając się na pracy tricepsów.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "triceps",
+            "klatka_piersiowa"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Pompki na podwyższeniu (Incline Push-ups)",
+        "description": "<p>Łatwiejsza wariacja pompek, z rękami na podwyższeniu. Idealna dla początkujących do budowania siły.</p>",
+        "howto": "<ol><li>Oprzyj dłonie o stabilne podwyższenie (np. ławkę, stół).</li><li>Im wyższe podwyższenie, tym łatwiejsze ćwiczenie.</li><li>Wykonaj pompkę, opuszczając klatkę piersiową do podwyższenia.</li><li>Wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "triceps",
+            "naramienny_przedni"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Pompki z nogami na podwyższeniu (Decline Push-ups)",
+        "description": "<p>Trudniejsza wariacja pompek, z nogami na podwyższeniu, która mocniej angażuje górną część klatki piersiowej.</p>",
+        "howto": "<ol><li>Oprzyj stopy na stabilnym podwyższeniu. Dłonie na podłodze.</li><li>Im wyżej nogi, tym trudniejsze ćwiczenie.</li><li>Wykonaj pompkę, opuszczając klatkę piersiową do podłogi.</li><li>Wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "triceps",
+            "naramienny_przedni"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Prostowanie nóg na maszynie",
+        "description": "<p>Ćwiczenie izolujące mięśnie czworogłowe uda. Doskonałe do budowania definicji i wytrzymałości tej partii.</p>",
+        "howto": "<ol><li>Usiądź na maszynie, zapierając nogi pod wałek.</li><li>Wyprostuj nogi, unosząc ciężar i napinając mięśnie czworogłowe.</li><li>W szczytowej fazie przytrzymaj napięcie.</li><li>Powoli opuść ciężar.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Prostowanie ramion na wyciągu (linki)",
+        "description": "<p>Popularne ćwiczenie izolujące tricepsy, pozwalające na stałe napięcie mięśniowe. Może być wykonywane z drążkiem lub liną.</p>",
+        "howto": "<ol><li>Stań przodem do wyciągu górnego, chwyć drążek lub linę.</li><li>Trzymając łokcie blisko tułowia, wyprostuj ramiona, ściągając ciężar w dół.</li><li>Skup się na pracy tricepsów.</li><li>Powoli wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "triceps"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Przysiad pucharowy (Goblet Squat)",
+        "description": "<p>Doskonały wariant przysiadu dla początkujących, uczący prawidłowego wzorca ruchowego. Wykonywany z hantlem lub kettlem trzymanym przy klatce.</p>",
+        "howto": "<ol><li>Trzymaj hantlę lub kettlebell pionowo przy klatce piersiowej.</li><li>Wykonaj głęboki przysiad, utrzymując prosty tułów.</li><li>Łokcie mogą znaleźć się po wewnętrznej stronie kolan na dole ruchu.</li><li>Wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "core"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Przysiad ze sztangą na plecach (High-bar/Low-bar)",
+        "description": "<p>Król ćwiczeń na nogi. Wzmacnia mięśnie czworogłowe, dwugłowe uda, pośladki oraz stabilizatory tułowia.</p>",
+        "howto": "<ol><li>Umieść sztangę na barkach (high-bar) lub na tylnych aktonach barków (low-bar).</li><li>Stopy rozstaw na szerokość barków.</li><li>Wykonaj przysiad, opuszczając biodra w dół i do tyłu.</li><li>Zejdź tak nisko, jak pozwala technika (idealnie poniżej linii kolan).</li><li>Wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "dwuglowy_uda",
+            "core"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Przysiad ze sztangą z przodu (Front Squat)",
+        "description": "<p>Wariacja przysiadu, która bardziej angażuje mięśnie czworogłowe uda i wymaga większej stabilizacji tułowia.</p>",
+        "howto": "<ol><li>Oprzyj sztangę na przednich aktonach barków, używając chwytu skrzyżowanego lub ciężarowego.</li><li>Trzymaj łokcie wysoko.</li><li>Wykonaj przysiad, utrzymując tułów jak najbardziej pionowo.</li><li>Wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "core"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Przywodzenie nogi na maszynie",
+        "description": "<p>Ćwiczenie na maszynie, które izoluje i wzmacnia mięśnie przywodziciele (wewnętrzną stronę uda).</p>",
+        "howto": "<ol><li>Usiądź na maszynie, opierając wewnętrzną stronę ud o poduszki.</li><li>Używając siły mięśni przywodzicieli, złącz nogi.</li><li>Przytrzymaj napięcie w końcowej fazie.</li><li>Powoli i kontrolowanie wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "przywodziciele"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Rolowanie (Foam Rolling)",
+        "description": "<p>Automasaż za pomocą piankowego wałka, mający na celu rozluźnienie napiętych mięśni i powięzi, poprawę mobilności.</p>",
+        "howto": "<ol><li>Umieść wałek piankowy pod partią mięśniową, którą chcesz rozmasować.</li><li>Powoli przetaczaj się po wałku, szukając bolesnych punktów.</li><li>Gdy znajdziesz napięty punkt, zatrzymaj się na nim na 20-30 sekund, aż poczujesz rozluźnienie.</li></ol>",
+        "category": "Inne",
+        "track_by": [
+            "time"
+        ],
+        "tags": [
+            "mobilnosc"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Rowerek stacjonarny",
+        "description": "<p>Klasyczne ćwiczenie aerobowe na rowerze stacjonarnym. Doskonałe do poprawy wydolności sercowo-naczyniowej i spalania kalorii.</p>",
+        "howto": "<p>Usiądź na siodełku, dostosuj wysokość. Zacznij pedałować w stałym tempie.</p>",
+        "category": "Cardio",
+        "track_by": [
+            "time",
+            "distance"
+        ],
+        "tags": [
+            "cardio"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Rozpiętki na maszynie (Pec-Deck)",
+        "description": "<p>Maszyna do rozpiętek, która zapewnia stałe napięcie mięśniowe przez cały zakres ruchu, co jest trudne do osiągnięcia z hantlami.</p>",
+        "howto": "<ol><li>Usiądź na maszynie, chwytając uchwyty.</li><li>Wykonaj ruch przywodzenia ramion, zbliżając uchwyty do siebie przed klatką piersiową.</li><li>Skup się na mocnym napięciu mięśni piersiowych w końcowej fazie.</li><li>Powoli wróć do pozycji rozciągnięcia.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Rozpiętki z hantlami na ławce płaskiej",
+        "description": "<p>Ćwiczenie izolujące i rozciągające mięśnie piersiowe, pomagające w budowaniu szerokości klatki piersiowej.</p>",
+        "howto": "<ol><li>Połóż się na ławce płaskiej, trzymając hantle nad klatką piersiową.</li><li>Utrzymując lekko ugięte łokcie, powoli opuszczaj hantle na boki szerokim łukiem.</li><li>Opuść do momentu poczucia rozciągnięcia w klatce piersiowej.</li><li>Używając mięśni piersiowych, wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Russian Twist (rosyjskie skręty)",
+        "description": "<p>Ćwiczenie na mięśnie skośne brzucha, wykonywane w siadzie równoważnym ze skrętem tułowia. Może być robione z obciążeniem.</p>",
+        "howto": "<ol><li>Usiądź na podłodze, ugnij nogi w kolanach i unieś stopy.</li><li>Odchyl tułów lekko do tyłu, utrzymując równowagę.</li><li>Wykonuj skręty tułowia, dotykając dłońmi (lub obciążeniem) podłogi po obu stronach.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "skosne_brzucha",
+            "core"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Skakanka",
+        "description": "<p>Proste, ale niezwykle skuteczne ćwiczenie cardio, poprawiające koordynację, pracę nóg i ogólną kondycję.</p>",
+        "howto": "<ol><li>Chwyć skakankę za uchwyty.</li><li>Skacz rytmicznie, przeskakując przez obracającą się linkę.</li><li>Utrzymuj luźne nadgarstki i skacz głównie z palców stóp.</li></ol>",
+        "category": "Cardio",
+        "track_by": [
+            "time",
+            "reps"
+        ],
+        "tags": [
+            "lydki",
+            "cardio"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Spacer farmera (Farmer's Walk)",
+        "description": "<p>Chodzenie na dystans z ciężkimi hantlami lub specjalnymi uchwytami. Buduje siłę chwytu, wytrzymałość i wzmacnia całe ciało.</p>",
+        "howto": "<ol><li>Podnieś dwa ciężkie hantle lub kettlebelle z podłogi (jak w martwym ciągu).</li><li>Utrzymując wyprostowaną postawę i napięty korpus, idź przed siebie na określony dystans lub czas.</li><li>Trzymaj barki ściągnięte w tył i w dół.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "time",
+            "distance"
+        ],
+        "tags": [
+            "chwyt",
+            "przedramie",
+            "core",
+            "czworoboczny_i_rownolegloboczne",
+            "full_body"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Spięcia brzucha (Crunches)",
+        "description": "<p>Klasyczne ćwiczenie na górne partie mięśnia prostego brzucha.</p>",
+        "howto": "<ol><li>Połóż się na plecach z ugiętymi nogami. Dłonie za głową lub na klatce piersiowej.</li><li>Unieś głowę i barki, napinając mięśnie brzucha.</li><li>Odcinek lędźwiowy powinien pozostać na podłodze.</li><li>Powoli wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "prosty_brzucha"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Szrugsy (wznosy barków)",
+        "description": "<p>Ćwiczenie izolujące górną część mięśnia czworobocznego (kaptury). Wykonywane ze sztangą lub hantlami.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając sztangę lub hantle w opuszczonych rękach.</li><li>Unieś barki pionowo w górę, w kierunku uszu, napinając mięśnie czworoboczne.</li><li>Nie wykonuj ruchów okrężnych.</li><li>Powoli opuść barki do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoboczny_i_rownolegloboczne"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Uginanie nadgarstków podchwytem i nachwytem",
+        "description": "<p>Ćwiczenia izolujące mięśnie zginacze i prostowniki przedramion, kluczowe dla budowy siły chwytu i masy przedramion.</p>",
+        "howto": "<ol><li>Usiądź i oprzyj przedramiona na ławce lub udach, tak aby nadgarstki wystawały poza krawędź.</li><li>Podchwytem (dłonie do góry) uginaj nadgarstki w górę.</li><li>Nachwytem (dłonie do dołu) unoś nadgarstki w górę.</li><li>Wykonuj ruch powoli i w pełnym zakresie.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "przedramie",
+            "chwyt"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Uginanie nóg na maszynie (leżąc)",
+        "description": "<p>Ćwiczenie izolujące mięśnie dwugłowe uda. Świetne do budowania siły i masy tylnej części nóg.</p>",
+        "howto": "<ol><li>Połóż się na brzuchu na maszynie, zaczepiając pięty pod wałek.</li><li>Ugnij nogi w kolanach, przyciągając wałek w kierunku pośladków.</li><li>Skup się na napięciu mięśni dwugłowych.</li><li>Powoli opuść ciężar.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "dwuglowy_uda"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Uginanie ramion z hantlami (młotkowo)",
+        "description": "<p>Wariant uginania z neutralnym chwytem, który mocniej angażuje mięsień ramienno-promieniowy i ramienny, budując grubość ramienia.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając hantle chwytem neutralnym (młotkowym), kciuki skierowane do przodu.</li><li>Ugnij ramiona, unosząc hantle w kierunku barków.</li><li>Utrzymuj chwyt neutralny przez cały ruch.</li><li>Powoli opuść hantle.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "biceps",
+            "przedramie"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Uginanie ramion z hantlami (supinacja)",
+        "description": "<p>Wersja uginania, w której na początku ruchu dłonie są w chwycie neutralnym, a w końcowej fazie rotują (supinacja). Mocno angażuje obie głowy bicepsa.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając hantle chwytem neutralnym.</li><li>Rozpocznij uginanie ramion. W połowie ruchu zacznij obracać nadgarstki na zewnątrz (supinacja).</li><li>Zakończ ruch z dłońmi skierowanymi do góry, mocno napinając bicepsy.</li><li>Opuść, odwracając ruch rotacji.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "biceps"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Uginanie ramion ze sztangą",
+        "description": "<p>Klasyczne i jedno z najskuteczniejszych ćwiczeń na budowanie masy mięśniowej bicepsów.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając sztangę podchwytem na szerokość barków.</li><li>Utrzymując łokcie blisko tułowia, ugnij ramiona, unosząc sztangę w kierunku barków.</li><li>Unikaj bujania tułowiem.</li><li>Powoli opuść sztangę do pełnego wyprostu.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "biceps"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Unoszenie nóg w leżeniu",
+        "description": "<p>Łatwiejsza alternatywa dla unoszenia nóg w zwisie, skupiająca się na dolnych partiach mięśnia prostego brzucha.</p>",
+        "howto": "<ol><li>Połóż się na plecach, nogi proste. Ręce wzdłuż tułowia lub pod pośladkami dla wsparcia.</li><li>Utrzymując nogi prosto, unieś je, aż będą prostopadle do podłogi.</li><li>Powoli opuść nogi, nie dotykając podłogi.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "prosty_brzucha",
+            "core"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Unoszenie nóg w zwisie na drążku",
+        "description": "<p>Zaawansowane ćwiczenie na dolne partie mięśni brzucha i zginacze bioder. Wymaga dużej siły chwytu.</p>",
+        "howto": "<ol><li>Zawiśnij na drążku, ramiona wyprostowane.</li><li>Unieś proste nogi w górę, aż będą co najmniej równolegle do podłogi.</li><li>Dla łatwiejszej wersji, unoś ugięte w kolanach nogi.</li><li>Powoli opuść nogi do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps",
+            "weight"
+        ],
+        "tags": [
+            "prosty_brzucha",
+            "core",
+            "chwyt"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Wiosłowanie hantlem w opadzie (jednorącz)",
+        "description": "<p>Wariant wiosłowania pozwalający na większy zakres ruchu i skupienie się na pracy jednej strony pleców.</p>",
+        "howto": "<ol><li>Oprzyj jedno kolano i jedną rękę o ławkę. Tułów równolegle do podłogi.</li><li>W drugiej ręce trzymaj hantlę.</li><li>Przyciągnij hantlę w górę, w kierunku biodra, prowadząc łokieć blisko ciała.</li><li>Skup się na ściąganiu łopatki. Powoli opuść.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "czworoboczny_i_rownolegloboczne",
+            "biceps"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Wiosłowanie na maszynie (siedząc, chwyt wąski)",
+        "description": "<p>Wersja wiosłowania na wyciągu poziomym, która zapewnia stałe napięcie i jest bezpieczniejsza dla dolnego odcinka pleców.</p>",
+        "howto": "<ol><li>Usiądź przy maszynie, stopy oparte o platformę.</li><li>Chwyć uchwyt (wąski, neutralny).</li><li>Utrzymując proste plecy, przyciągnij uchwyt do brzucha.</li><li>Ściągnij łopatki i przytrzymaj napięcie. Powoli wróć.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "czworoboczny_i_rownolegloboczne",
+            "biceps"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Wiosłowanie sztangą w opadzie tułowia",
+        "description": "<p>Fundamentalne ćwiczenie na budowanie grubości i siły pleców, angażujące mięśnie najszersze, czworoboczne i równoległoboczne.</p>",
+        "howto": "<ol><li>Pochyl tułów, aż będzie niemal równoległy do podłogi. Utrzymuj proste plecy.</li><li>Złap sztangę nachwytem.</li><li>Przyciągnij sztangę do dolnej części brzucha.</li><li>Ściągnij mocno łopatki. Powoli opuść sztangę.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "czworoboczny_i_rownolegloboczne",
+            "prostownik_grzbietu",
+            "biceps"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Wiosłowanie T-Bar",
+        "description": "<p>Klasyczne ćwiczenie na budowanie grubości pleców, wykonywane na specjalnej maszynie lub ze sztangą w rogu.</p>",
+        "howto": "<ol><li>Stań na platformie maszyny T-Bar lub okrakiem nad sztangą.</li><li>Chwyć uchwyty i przyciągnij ciężar do klatki piersiowej.</li><li>Utrzymuj proste plecy i ściągaj łopatki.</li><li>Powoli opuść ciężar.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "czworoboczny_i_rownolegloboczne",
+            "biceps"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Wyciskanie francuskie hantlami",
+        "description": "<p>Wariant wyciskania francuskiego z hantlami, który pozwala na bardziej naturalny ruch w stawach łokciowych i nadgarstkowych.</p>",
+        "howto": "<ol><li>Połóż się na ławce. Trzymaj hantle nad klatką piersiową chwytem neutralnym.</li><li>Utrzymując ramiona nieruchomo, zginaj łokcie, opuszczając hantle w kierunku boków głowy.</li><li>Użyj siły tricepsów, aby wyprostować ramiona do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "triceps"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Wyciskanie francuskie sztangą leżąc",
+        "description": "<p>Jedno z najlepszych ćwiczeń na budowanie masy mięśniowej tricepsów. Polega na opuszczaniu sztangi w kierunku czoła.</p>",
+        "howto": "<ol><li>Połóż się na ławce. Chwyć sztangę (najlepiej łamaną) wąskim nachwytem.</li><li>Opuść sztangę w kontrolowany sposób w kierunku czoła, zginając tylko łokcie.</li><li>Użyj siły tricepsów, aby wyprostować ramiona.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "triceps"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Wyciskanie hantli na ławce dodatniej",
+        "description": "<p>Wariant wyciskania, który bardziej angażuje górną część klatki piersiowej i przednie aktony barków.</p>",
+        "howto": "<ol><li>Ustaw ławkę pod kątem 30-45 stopni.</li><li>Połóż się, trzymając hantle na wysokości klatki piersiowej.</li><li>Wypchnij hantle w górę, aż do pełnego wyprostu ramion.</li><li>Powoli opuść hantle do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "naramienny_przedni",
+            "triceps"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Wyciskanie hantli na ławce płaskiej",
+        "description": "<p>Alternatywa dla wyciskania sztangi, pozwalająca na większy zakres ruchu i niezależną pracę obu stron ciała.</p>",
+        "howto": "<ol><li>Połóż się na płaskiej ławce, trzymając hantle na wysokości klatki piersiowej.</li><li>Wypchnij hantle w górę, zbliżając je do siebie w szczytowej fazie.</li><li>Powoli opuść hantle, czując rozciągnięcie w klatce piersiowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "naramienny_przedni",
+            "triceps"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Wyciskanie hantli nad głowę (siedząc)",
+        "description": "<p>Wersja wyciskania żołnierskiego, która pozwala na większą izolację mięśni naramiennych i jest bezpieczniejsza dla dolnego odcinka pleców.</p>",
+        "howto": "<ol><li>Usiądź na ławce z oparciem. Trzymaj hantle na wysokości barków.</li><li>Wypchnij hantle pionowo w górę nad głowę.</li><li>Unikaj przeprostu w łokciach.</li><li>Powoli opuść hantle do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_ogolnie",
+            "naramienny_przedni",
+            "triceps"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Wyciskanie sztangi na ławce płaskiej",
+        "description": "<p>Podstawowe ćwiczenie budujące siłę i masę mięśni klatki piersiowej, angażujące również tricepsy i barki.</p>",
+        "howto": "<ol><li>Połóż się na ławce, stopy płasko na ziemi. Złap sztangę nachwytem.</li><li>Opuść sztangę w kontrolowany sposób do klatki piersiowej.</li><li>Dynamicznie wypchnij sztangę w górę do pełnego wyprostu ramion.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "klatka_piersiowa",
+            "naramienny_przedni",
+            "triceps"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Wyciskanie wąsko",
+        "description": "<p>Wariant wyciskania na ławce z wąskim chwytem, który przenosi nacisk z klatki piersiowej na tricepsy.</p>",
+        "howto": "<ol><li>Połóż się na ławce płaskiej. Chwyć sztangę chwytem na szerokość barków lub węższym.</li><li>Opuść sztangę do dolnej części klatki piersiowej, trzymając łokcie blisko ciała.</li><li>Wypchnij sztangę w górę, skupiając się na pracy tricepsów.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "triceps",
+            "klatka_piersiowa",
+            "naramienny_przedni"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Wyciskanie żołnierskie (OHP)",
+        "description": "<p>Najlepsze ćwiczenie na budowanie siły i masy mięśni naramiennych (barków), wykonywane na stojąco.</p>",
+        "howto": "<ol><li>Stań prosto, sztanga oparta na górnej części klatki piersiowej.</li><li>Napnij brzuch i pośladki.</li><li>Wypchnij sztangę pionowo nad głowę.</li><li>Głowa lekko odchyla się do tyłu, by zrobić miejsce dla sztangi, a następnie wraca do pozycji neutralnej. Powoli opuść.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_ogolnie",
+            "naramienny_przedni",
+            "triceps",
+            "core"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Wykroki",
+        "description": "<p>Funkcjonalne ćwiczenie na dolne partie ciała, poprawiające siłę, stabilizację i koordynację. Może być wykonywane z hantlami lub sztangą.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając hantle lub sztangę.</li><li>Zrób duży krok do przodu i opuść biodra, aż oba kolana będą zgięte pod kątem 90 stopni.</li><li>Odpychając się od pięty nogi wykrocznej, wróć do pozycji wyjściowej. Powtórz na drugą nogę.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "czworoglowy_uda",
+            "posladkowy",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Wznosy boczne hantlami",
+        "description": "<p>Ćwiczenie izolujące środkowy akton mięśni naramiennych, kluczowe dla uzyskania szerokich, 'kulistych' barków.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając hantle po bokach tułowia.</li><li>Utrzymując lekko ugięte łokcie, unieś ramiona na boki, aż będą na wysokości barków.</li><li>Powoli i kontrolowanie opuść hantle.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_boczny"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Wznosy hantli w opadzie tułowia",
+        "description": "<p>Ćwiczenie izolujące tylny akton barków i mięśnie międzyłopatkowe. Wykonywane z hantlami w pochyleniu tułowia.</p>",
+        "howto": "<ol><li>Pochyl tułów do przodu, utrzymując proste plecy.</li><li>Trzymaj hantle w opuszczonych rękach, dłonie skierowane do siebie.</li><li>Unieś ramiona na boki, prowadząc ruch tylną częścią barków.</li><li>Powoli opuść hantle.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_tylny",
+            "czworoboczny_i_rownolegloboczne"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Wznosy hantli w przód",
+        "description": "<p>Ćwiczenie izolujące przedni akton mięśni naramiennych.</p>",
+        "howto": "<ol><li>Stań prosto, trzymając hantle przed udami.</li><li>Unieś jedną lub obie hantle prosto przed siebie na wysokość barków.</li><li>Unikaj bujania tułowiem.</li><li>Powoli opuść hantle do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "naramienny_przedni"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Wznosy na łydki (wspięcia na palce)",
+        "description": "<p>Podstawowe ćwiczenie na rozwój mięśni łydek. Może być wykonywane ze sztangą, na maszynie lub z masą własnego ciała.</p>",
+        "howto": "<ol><li>Stań na podwyższeniu, tak aby pięty wystawały poza krawędź.</li><li>Opuść pięty maksymalnie w dół, czując rozciągnięcie.</li><li>Wespnij się na palce tak wysoko, jak to możliwe, mocno napinając łydki.</li><li>Powoli wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "lydki"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Zakroki",
+        "description": "<p>Wariant wykroków, w którym wykonuje się krok w tył. Często uważane za bezpieczniejsze dla kolan i mocniej angażujące pośladki.</p>",
+        "howto": "<ol><li>Stań prosto.</li><li>Zrób duży krok do tyłu, opuszczając biodra, aż oba kolana będą zgięte pod kątem 90 stopni.</li><li>Wróć do pozycji wyjściowej, odpychając się od nogi z przodu. Powtórz na drugą stronę.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "posladkowy",
+            "czworoglowy_uda",
+            "stabilizacja"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Ściąganie drążka wyciągu górnego do klatki",
+        "description": "<p>Alternatywa dla podciągania, pozwalająca na precyzyjną pracę nad mięśniami najszerszymi grzbietu z kontrolowanym obciążeniem.</p>",
+        "howto": "<ol><li>Usiądź przy maszynie, blokując uda pod poduszkami. Chwyć drążek szerokim nachwytem.</li><li>Odchyl się lekko i ściągnij drążek do górnej części klatki piersiowej.</li><li>Skup się na pracy pleców i ściąganiu łopatek.</li><li>Powoli wróć do pozycji wyjściowej.</li></ol>",
+        "category": "Siłownia",
+        "track_by": [
+            "weight",
+            "reps"
+        ],
+        "tags": [
+            "najszerszy_grzbietu",
+            "biceps"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Żuraw (Nordic Hamstring Curls)",
+        "description": "<p>Niezwykle wymagające ćwiczenie ekscentryczne na mięśnie dwugłowe uda. Jedno z najlepszych do prewencji kontuzji.</p>",
+        "howto": "<ol><li>Uklęknij na podłodze. Poproś partnera o przytrzymanie kostek lub zablokuj je pod stabilnym obiektem.</li><li>Utrzymując prostą linię od kolan do głowy, powoli opuszczaj tułów w kierunku podłogi.</li><li>Kontroluj ruch siłą mięśni dwugłowych tak długo, jak to możliwe.</li><li>Gdy nie możesz już utrzymać napięcia, zamortyzuj upadek rękami i odepchnij się z powrotem do pozycji wyjściowej.</li></ol>",
+        "category": "Kalistenika",
+        "track_by": [
+            "reps"
+        ],
+        "tags": [
+            "dwuglowy_uda"
+        ]
+    }
+]

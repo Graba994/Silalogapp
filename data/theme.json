@@ -1,0 +1,77 @@
+{
+    "appName": "ZmotywowanaAna",
+    "logoPath": null,
+    "faviconPath": "assets\/uploads\/custom_favicon.png",
+    "navbarBg": "#000000",
+    "navbarText": "#ffffff",
+    "footerText": "ZmotywowanaAna© {rok} - Prosta aplikacja do śledzenia treningów.",
+    "colors": {
+        "--bs-primary": "#0d6efd",
+        "--bs-secondary": "#6c757d",
+        "--bs-success": "#198754",
+        "--bs-danger": "#dc3545",
+        "--bs-info": "#0dcaf0",
+        "--bs-dark": "#0f7deb"
+    },
+    "dashboardWidgets": {
+        "welcome": {
+            "enabled": true,
+            "title": "Karta Powitalna"
+        },
+        "quote": {
+            "enabled": true,
+            "title": "Cytat Motywacyjny"
+        },
+        "weeklySummary": {
+            "enabled": true,
+            "title": "Twój Tydzień w Liczbach"
+        },
+        "recentPRs": {
+            "enabled": true,
+            "title": "Ostatnie Osiągnięcia (PRs)"
+        },
+        "strengthRankings": {
+            "enabled": false,
+            "title": "Rankingi Siły vs Znajomi"
+        },
+        "activityHeatmap": {
+            "enabled": true,
+            "title": "Mapa Aktywności"
+        },
+        "quickStart": {
+            "enabled": false,
+            "title": "Szybki Start (Twoje Plany)"
+        },
+        "goalProgress": {
+            "enabled": false,
+            "title": "Postęp w Celach"
+        }
+    },
+    "loginPage": {
+        "backgroundType": "image",
+        "backgroundColor": "#1478db",
+        "backgroundImage": "assets\/uploads\/login_bg.jpg",
+        "boxColor": "#ffffff",
+        "textColor": "#000000",
+        "welcomeWidgets": [
+            {
+                "enabled": true,
+                "icon": "bi-trophy-fill",
+                "title": "Śledź Swój Progres",
+                "text": "Zapisuj każdy trening, serię i powtórzenie. Obserwuj, jak Twoja siła rośnie z tygodnia na tydzień."
+            },
+            {
+                "enabled": true,
+                "icon": "bi-journal-text",
+                "title": "Twórz i Dziel Się Planami",
+                "text": "Projektuj własne plany treningowe lub korzystaj z tych przygotowanych przez Twojego trenera."
+            },
+            {
+                "enabled": true,
+                "icon": "bi-people-fill",
+                "title": "Trenuj Razem",
+                "text": "Dołącz do wspólnych sesji treningowych na żywo i motywujcie się nawzajem ze znajomymi."
+            }
+        ]
+    }
+}

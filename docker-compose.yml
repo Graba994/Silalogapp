@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  silalog:
+    build: .
+    container_name: silalog_app
+    ports:
+      # Przekieruj port 8080 na serwerze na port 80 w kontenerze
+      - "8080:80"
+    volumes:
+      # Podłącz folder "data" na serwerze do kontenera.
+      # Dzięki temu Twoje dane (pliki JSON) przetrwają aktualizacje aplikacji.
+      # Nazwa 'silalog-data' zostanie stworzona przez Dockera.
+      - silalog-data:/var/www/html/data
+      # Podłącz folder na kopie zapasowe
+      - silalog-backups:/var/www/AutoBackup
+
+volumes:
+  silalog-data:
+  silalog-backups:
