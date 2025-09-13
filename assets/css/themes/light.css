@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}

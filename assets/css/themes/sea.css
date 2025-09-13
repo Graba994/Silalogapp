@@ -1,0 +1,28 @@
+:root {
+    --bs-primary: #007bff;
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    --bs-danger: #dc3545;
+    --bs-info: #17a2b8;
+    --bs-dark: #343a40;
+    --bs-light: #f8f9fa;
+    --bs-body-bg: #f8f9fa;
+    --bs-body-color: #212529;
+}
+.navbar {
+    background-color: #007bff !important;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

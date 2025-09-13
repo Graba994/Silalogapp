@@ -9,11 +9,17 @@ $successMessage = '';
 $errorMessage = '';
 $activeTab = $_GET['tab'] ?? 'general';
 
-// Logika zapisu formularza
+$themes = [];
+$themeFiles = glob('assets/css/themes/*.css');
+foreach ($themeFiles as $file) {
+    $fileName = basename($file);
+    $themeName = ucfirst(str_replace(['.css', '_'], ['', ' '], $fileName));
+    $themes[$fileName] = $themeName;
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $currentConfig = get_theme_config();
     
-    // Akcje specjalne (np. usuwanie)
     if (isset($_POST['action'])) {
         if ($_POST['action'] === 'remove_logo') {
             if (!empty($currentConfig['logoPath']) && file_exists($currentConfig['logoPath'])) @unlink($currentConfig['logoPath']);
@@ -30,12 +36,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
-    // --- ZAPIS ZAKŁADKI OGÓLNEJ ---
     if (isset($_POST['save_general'])) {
         $activeTab = 'general';
         $currentConfig['appName'] = trim($_POST['appName']);
         $currentConfig['footerText'] = trim($_POST['footerText']);
         
+        if (isset($_POST['selectedTheme']) && array_key_exists($_POST['selectedTheme'], $themes)) {
+            $currentConfig['selectedTheme'] = $_POST['selectedTheme'];
+        }
+
         $colorFields = ['navbarBg', 'navbarText', '--bs-primary', '--bs-secondary', '--bs-success', '--bs-danger', '--bs-info', '--bs-dark'];
         foreach ($colorFields as $field) {
             $postKey = str_replace('--bs-', '', $field);
@@ -66,7 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
-    // --- ZAPIS ZAKŁADKI STRONY LOGOWANIA ---
     if (isset($_POST['save_login'])) {
         $activeTab = 'login';
         $loginConfig = &$currentConfig['loginPage'];
@@ -93,7 +101,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
     
-    // --- ZAPIS ZAKŁADKI WIDŻETÓW ---
     if (isset($_POST['save_widgets'])) {
         $activeTab = 'widgets';
         if (isset($currentConfig['dashboardWidgets']) && is_array($currentConfig['dashboardWidgets'])) {
@@ -129,7 +136,6 @@ require_once 'includes/header.php';
 </ul>
 
 <div class="tab-content" id="themeTabContent">
-    <!-- ########## ZAKŁADKA: USTAWIENIA OGÓLNE ########## -->
     <div class="tab-pane fade <?= $activeTab === 'general' ? 'show active' : '' ?>" role="tabpanel">
         <form method="POST" enctype="multipart/form-data" action="?tab=general">
             <div class="row g-4">
@@ -139,6 +145,14 @@ require_once 'includes/header.php';
                         <div class="card-body">
                             <div class="mb-3"><label for="appName" class="form-label">Nazwa Aplikacji</label><input type="text" class="form-control" id="appName" name="appName" value="<?= htmlspecialchars($themeConfig['appName']) ?>"></div>
                             <div class="mb-3"><label for="footerText" class="form-label">Tekst w stopce</label><input type="text" class="form-control" id="footerText" name="footerText" value="<?= htmlspecialchars($themeConfig['footerText']) ?>"><div class="form-text">Użyj <code>{rok}</code>, aby wstawić aktualny rok.</div></div>
+                            <div class="mb-3">
+                                <label for="selectedTheme" class="form-label">Motyw Aplikacji</label>
+                                <select class="form-select" id="selectedTheme" name="selectedTheme">
+                                    <?php foreach ($themes as $file => $name): ?>
+                                    <option value="<?= $file ?>" <?= ($themeConfig['selectedTheme'] ?? 'dark.css') === $file ? 'selected' : '' ?>><?= $name ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
                         </div>
                     </div>
                      <div class="card shadow-sm">
@@ -177,7 +191,6 @@ require_once 'includes/header.php';
         </form>
     </div>
 
-    <!-- ########## ZAKŁADKA: STRONA LOGOWANIA ########## -->
     <div class="tab-pane fade <?= $activeTab === 'login' ? 'show active' : '' ?>" role="tabpanel">
         <form method="POST" enctype="multipart/form-data" action="?tab=login">
             <div class="row g-4">
@@ -218,7 +231,6 @@ require_once 'includes/header.php';
         </form>
     </div>
 
-    <!-- ########## ZAKŁADKA: WIDŻETY PANELU ########## -->
     <div class="tab-pane fade <?= $activeTab === 'widgets' ? 'show active' : '' ?>" role="tabpanel">
         <form method="POST" action="?tab=widgets">
             <div class="card shadow-sm">

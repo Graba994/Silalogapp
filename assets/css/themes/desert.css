@@ -1,0 +1,29 @@
+:root {
+    --bs-primary: #c27c0e;
+    --bs-secondary: #856404;
+    --bs-success: #718a3a;
+    --bs-danger: #a94442;
+    --bs-info: #31708f;
+    --bs-dark: #3c3c3c;
+    --bs-light: #fdf6e3;
+    --bs-body-bg: #fdf6e3;
+    --bs-body-color: #654b07;
+}
+
+.navbar {
+    background-color: #c27c0e !important;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: #fdf6e3 !important;
+}
+
+.btn-primary {
+    background-color: #c27c0e;
+    border-color: #c27c0e;
+}
+
+.btn-primary:hover {
+    background-color: #856404;
+    border-color: #856404;
+}

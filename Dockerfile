@@ -10,5 +10,5 @@ RUN docker-php-ext-install gd zip
 # Ustaw katalog roboczy wewnątrz kontenera
 WORKDIR /var/www/html
 
-# Skopiuj cały kod aplikacji z folderu "koks" do kontenera
-COPY ./koks /var/www/html
+# Skopiuj cały kod aplikacji z bieżącego folderu do kontenera
+COPY . /var/www/html
